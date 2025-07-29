@@ -1,5 +1,8 @@
 # 👕 FashionMNIST 이미지 분류기
 
+PyTorch 기반 CNN 모델을 이용해 FashionMNIST 옷 이미지를 분류하는 프로젝트입니다.  
+모델 학습 → FastAPI 백엔드 → Gradio 프론트엔드까지 전 과정을 포함합니다.
+
 👗 웹앱 실행 화면입니다.
 사용자가 이미지를 업로드하면, CNN 모델이 어떤 패션 아이템인지 예측해줍니다.
 
@@ -14,9 +17,6 @@
 <img src="images/Coat.png" width="900"/>
 
 ---
-
-PyTorch 기반 CNN 모델을 이용해 FashionMNIST 옷 이미지를 분류하는 프로젝트입니다.  
-모델 학습 → FastAPI 백엔드 → Gradio 프론트엔드까지 전 과정을 포함합니다.
 
 ---
 
