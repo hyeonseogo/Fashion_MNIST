@@ -1,14 +1,14 @@
 # 👕 FashionMNIST 이미지 분류기
 
-<img src="Ankle_boot.png" width="800"/>
+<img src="Ankle_boot.png" width="900"/>
 
 ---
 
-<img src="Shirt.png" width="800"/>
+<img src="Shirt.png" width="900"/>
 
 ---
 
-<img src="Coat.png" width="800"/>
+<img src="Coat.png" width="900"/>
 
 ---
 
