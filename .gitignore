@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+
+# IDE / Editor
+.vscode/
+*.swp
+
+# Model outputs
+model_weights.pth
+model.pt
+
+# Datasets & 저장된 이미지
+data/
+saved_test_images/
+
+# OS
+.DS_Store
+Thumbs.db
