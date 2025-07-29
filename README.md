@@ -1,5 +1,8 @@
 # 👕 FashionMNIST 이미지 분류기
 
+👗 웹앱 실행 화면입니다.
+사용자가 이미지를 업로드하면, CNN 모델이 어떤 패션 아이템인지 예측해줍니다.
+
 <img src="images/Ankle_boot.png" width="900"/>
 
 ---
