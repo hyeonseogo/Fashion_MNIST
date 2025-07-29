@@ -1,8 +1,16 @@
 # 👕 FashionMNIST 이미지 분류기
 
-<img src="1.png" width="600"/>
-<img src="2.png" width="600"/>
-<img src="3.png" width="600"/>
+<img src="Ankle_boot.png" width="800"/>
+
+---
+
+<img src="Shirt.png" width="800"/>
+
+---
+
+<img src="Coat.png" width="800"/>
+
+---
 
 PyTorch 기반 CNN 모델을 이용해 FashionMNIST 옷 이미지를 분류하는 프로젝트입니다.  
 모델 학습 → FastAPI 백엔드 → Gradio 프론트엔드까지 전 과정을 포함합니다.
@@ -11,18 +19,23 @@ PyTorch 기반 CNN 모델을 이용해 FashionMNIST 옷 이미지를 분류하�
 
 ## 📁 폴더 구조
 
+```
 FASHION_MNIST/
-├── pycache/ # 캐시 파일
-├── data/ # FashionMNIST 데이터 저장 위치
-├── venv/ # 가상환경 디렉토리
-├── .gitignore # Git 제외 목록
-├── fashion_classifier.py # 모델 학습 및 테스트 + 저장 (model_weights.pth, model.pt)
-├── fashion_client.py # Gradio 기반 클라이언트 (프론트엔드)
-├── fashion_server.py # FastAPI 서버 (백엔드 API)
-├── model_weights.pth # 학습된 모델 파라미터 (state_dict)
-├── model.pt # 전체 모델 저장본
-├── requirements.txt # 필요한 패키지 목록
-├── save_fashionmnist_images.py # 테스트 이미지 10장 저장용 스크립트
+├── __pycache__/                   # Python 캐시 파일
+├── data/                         # FashionMNIST 데이터 저장 위치
+├── saved_test_images/           # 저장된 테스트 이미지들 (예: 10장 샘플)
+├── venv/                         # Python 가상환경 폴더
+├── .gradio/                      # Gradio의 자동 로그 저장 폴더 (flagged 이미지 등)
+├── .gitignore                    # Git에서 추적하지 않을 파일/폴더 목록
+├── fashion_classifier.py         # 모델 학습 및 평가 코드 (model_weights.pth, model.pt 저장)
+├── fashion_client.py             # Gradio 프론트엔드 (이미지 업로드 UI)
+├── fashion_server.py             # FastAPI 백엔드 (이미지 분류 API)
+├── model_weights.pth             # 학습된 모델 파라미터 (state_dict만 저장)
+├── model.pt                      # 전체 모델 저장본 (모델 + 구조)
+├── requirements.txt              # 프로젝트 의존 패키지 목록
+├── save_fashionmnist_images.py   # FashionMNIST 테스트 이미지 10장 저장용 스크립트
+
+```
 
 ---
 

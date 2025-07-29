@@ -25,3 +25,6 @@ saved_test_images/
 # OS
 .DS_Store
 Thumbs.db
+
+# Gradio 로그 및 저장 파일
+.gradio/
