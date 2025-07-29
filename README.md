@@ -66,7 +66,7 @@ pip install -r requirements.txt
 python fashion_classifier.py
 ```
 
-- model_weights.pth 와 model.pt 파일이 저장됩니다.
+- `model_weights.pth` 와 `model.pt` 파일이 저장됩니다.
 
 ### 4. FastAPI 서버 실행
 
@@ -84,13 +84,13 @@ python fashion_client.py
 
 ---
 
-## FashionMNIST 테스트 이미지 10장 저장
+## 👗 FashionMNIST 테스트 이미지 10장 저장
 
 ```
 python save_fashionmnist_images.py
 ```
 
-./saved_test_images/ 폴더에 10장의 예시 이미지가 저장됩니다.
+- `./saved_test_images/` 폴더에 10장의 예시 이미지가 저장됩니다.
 
 ---
 
