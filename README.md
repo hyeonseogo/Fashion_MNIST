@@ -1,6 +1,8 @@
 # 👕 FashionMNIST 이미지 분류기
 
-<img src="screenshot.png" width="600"/>
+<img src="1.png" width="600"/>
+<img src="2.png" width="600"/>
+<img src="3.png" width="600"/>
 
 PyTorch 기반 CNN 모델을 이용해 FashionMNIST 옷 이미지를 분류하는 프로젝트입니다.  
 모델 학습 → FastAPI 백엔드 → Gradio 프론트엔드까지 전 과정을 포함합니다.
@@ -27,44 +29,55 @@ FASHION_MNIST/
 ## 🚀 실행 방법
 
 ### 1. 가상환경 생성
+
 ```
 python -m venv venv
 source venv/bin/activate       # macOS/Linux
 venv\Scripts\activate          # Windows
 ```
+
 ### 2. 패키지 설치
+
 ```
 pip install -r requirements.txt
 ```
 
 ### 3. 모델 학습 및 저장
+
 ```
 python fashion_classifier.py
 ```
+
 - model_weights.pth 와 model.pt 파일이 저장됩니다.
 
 ### 4. FastAPI 서버 실행
+
 ```
 uvicorn fashion_server:app --reload
 ```
 
 ### 5. Gradio 프론트 실행
+
 ```
 python fashion_client.py
 ```
+
 - 웹 브라우저에서 이미지 업로드 시, 분류 결과가 출력됩니다.
 
 ---
 
 ## FashionMNIST 테스트 이미지 10장 저장
+
 ```
 python save_fashionmnist_images.py
 ```
+
 ./saved_test_images/ 폴더에 10장의 예시 이미지가 저장됩니다.
 
 ---
 
 ## 📚 분류 클래스
+
 ```
 ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
  'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
@@ -78,10 +91,3 @@ python save_fashionmnist_images.py
 - FastAPI
 - Gradio
 - torchvision.datasets (FashionMNIST)
-
-
-
-
-
-
-
